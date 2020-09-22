@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@import url('//cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
+
+body {width : 100%; height:100%; text-color : #6B6B6B; font-family:'NanumSquareRound',sans-serif;}
+a {text-decoration :none;}
+
+#center{ padding:20px 5px 20px 5px; width:100%; height:100%; margin-top : 80px;}
+
+/*Nav*/
+header{position : relative; width:100%; height:80px; top:0px;
+		font-size:18px; border-bottom :solid 1px;}
+header ul{float : right; list-style:none; margin-top :16px; padding-right:25px;}
+header li{float : left; margin : 0 0 0 0; padding: 10px 0 0 10px; border : 0;}
+.icon {float : left; padding-left : 15px;}
+
+
+
+/*HelpForm*/
+
+form { border : #D8D8D8 1px solid; padding : 30px 15px 30px 55px; width : 380px; 
+	   margin : auto; margin-top: 50px; margin-bottom : 50px;
+	   font-size : 18px; border-radius: 5px;}
+	   
+.typing { background : #ecf0f1;	border : #ccc 1px solid; border-bottom : #ccc 2px solid;
+	border-radius: 4px;	padding : 8px; width : 300px; margin-top : 20px; font-size : 15px;}
+
+.bttn {	background : #A02828; width : 100px; padding-top : 5px; padding-bottom : 5px;
+	color : white; 	border : #8A0808 1px solid;	border-radius : 4px; margin-top:20px; margin-bottom:20px;
+	margin-left : 215px; font-size:18px;}
+	
+/*footer*/
+footer{position : relative; width : 100%; height : 100px; bottom : 0px;}
+.footer-table{width: 100%; padding : 25px 20px 5px 20px; text-align:left; font-size:15px; }
+.footer-admin{position : absolute; text-size : 10px; right:10px;}
