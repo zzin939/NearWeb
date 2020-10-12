@@ -1,2 +1,0 @@
-# NearWeb
-NearWeb Project
